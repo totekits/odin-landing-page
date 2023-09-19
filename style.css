@@ -1,15 +1,27 @@
 body {
     font-family: "roboto", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     background-color: #1F2937;
+    padding: 16px 320px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
 }
 
 a, .herosub {
@@ -19,6 +31,19 @@ a, .herosub {
 
 .info-1 {
     background-color: #1F2937;
+    padding: 64px 320px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+
 }
 
 .hero {
@@ -27,19 +52,66 @@ a, .herosub {
     color: #F9FAF8;
 }
 
+.herosub {
+    width: 320px;
+}
+
 button {
+    padding: 8px;
+    width: 96px;
+    border-radius: 4px;
+    border-style: solid;
     background-color: #3882F6;
+    border-color: #3882F6;
     color: #F9FAF8;
+
+}
+
+.cat {
+    width: 480px;
+    
+}
+
+.info-2 {
+    padding: 64px 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
 }
 
 .infoheader {
+    padding: 32px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
+.pics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.captions {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    padding: 24px;
+}
+
+img {
+    width: 10%;
+}
+
 .info-3 {
+    padding: 64px 480px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
@@ -51,10 +123,25 @@ button {
 
 .author {
     font-weight: bold;
+    text-align: end;
+}
+
+.info-4 {
+    padding: 64px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .container {
+    border-radius: 4px;
+    padding: 64px;
     background-color: #3882F6;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .calltoaction {
@@ -66,8 +153,18 @@ button {
     color: #F9FAF8;
 }
 
+.button-2 {
+    padding: 8px;
+    width: 96px;
+    border-radius: 4px;
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
 .footer {
+    padding: 16px 320px;
     background-color: #1F2937;
     color: #F9FAF8;
+    text-align: center;
 }
 
